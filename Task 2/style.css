@@ -1,0 +1,26 @@
+body{
+background: rgb(133, 168, 233);
+}
+
+.head{
+    color: darkblue;
+}
+
+#bglime{
+    background-color: rgb(190, 239, 142);
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+#para{
+    color: green;
+}
+
+.highlight{
+    color: black;
+    font-size: 25px;
+}
+

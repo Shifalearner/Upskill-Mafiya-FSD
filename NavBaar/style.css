@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blueviolet; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+}
+ul{
+    list-style: none;
+    text-align: end;
+    padding: 30px;
+   
+    background-color:rgb(127, 127, 231);
+    color:blue;
+}
+
+li{
+    display: inline;
+    padding: 2%;
+}
+
+li:hover{
+    color: rgb(162, 64, 162);
+    cursor: pointer;
+}

@@ -8,12 +8,12 @@ body {
     width: 50vw;
     height: 80vh;
     margin: 10vh 25vw;
-    position: relative;
     box-sizing: border-box;
+    text-align: center; /* Center align the content */
 }
 
 img {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block; /* Ensure the image is a block-level element */
 }
@@ -21,14 +21,13 @@ img {
 button {
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: white;
-    padding: 10px 20px;
+    padding: 15px; /* Use viewport units for padding */
     border: 1;
-    font-size: 24px;
+    font-size: 26px; /* Use viewport units for font size */
     cursor: pointer;
     transition: background 0.3s;
-    width: 80%; /* Set button width to match the image width */
+    width: 100%; /* Set button width to match the image width */
     box-sizing: border-box;
-    height: 60px;
 }
 
 button:hover {

@@ -5,28 +5,29 @@ body {
 }
 
 .image-container {
-    width: 50vw;
-    height: 80vh;
+    width: 45vw;
+    height: 100vh;
     margin: 10vh 25vw;
     box-sizing: border-box;
-    text-align: center; /* Center align the content */
+    text-align: center;
+    position: relative;
 }
 
 img {
     width: 100%;
     height: auto;
-    display: block; /* Ensure the image is a block-level element */
+    display: block;
 }
 
 button {
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: white;
-    padding: 15px; /* Use viewport units for padding */
+    padding: 10px 20px;
     border: 1;
-    font-size: 26px; /* Use viewport units for font size */
+    font-size: 20px;
     cursor: pointer;
     transition: background 0.3s;
-    width: 100%; /* Set button width to match the image width */
+    width:100%; /* Adjust button width to accommodate padding */
     box-sizing: border-box;
 }
 

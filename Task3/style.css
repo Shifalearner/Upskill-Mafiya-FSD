@@ -2,15 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    overflow: hidden; 
 }
 
 .image-container {
-    width: 45vw;
-    height: 100vh;
     margin: 10vh 25vw;
     box-sizing: border-box;
     text-align: center;
-    position: relative;
+    width: 50vw;
+    height: calc(80vh - 20px); 
 }
 
 img {
@@ -23,12 +23,14 @@ button {
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: white;
     padding: 10px 20px;
-    border: 1;
+    display: block;
     font-size: 20px;
     cursor: pointer;
     transition: background 0.3s;
-    width:100%; /* Adjust button width to accommodate padding */
+    width: 50%; 
+    position: fixed;
     box-sizing: border-box;
+    
 }
 
 button:hover {

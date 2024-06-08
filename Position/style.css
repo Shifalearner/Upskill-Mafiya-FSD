@@ -1,0 +1,49 @@
+body{
+    color: white;
+}
+
+.container{
+    width: 300px;
+    height: 600px;
+    background-color: gainsboro;
+    margin: 100px;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+}
+
+.red{
+    position: relative;
+    background-color: #ef3e3e;
+    top: 100px;
+    left: 100px;
+}
+
+.green{
+    background-color: #3aba8f;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.blue{
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.purple{
+    background-color: #a357a3;
+    position: sticky;
+    top: 50px;
+}
+
+.spacer{
+    height: 300vh;
+}
+

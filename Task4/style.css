@@ -8,8 +8,9 @@
 ul {
     list-style: none;
     text-align: center;
-    color: #535570;
+    color: #525469;
     padding: 20px 0;
+    top: 10px;
     position: relative;
 }
 
@@ -17,13 +18,14 @@ li {
     display: inline-block;
     padding: 0 20px;
     
+    
 }
 
 .logo{
     position:absolute;
     left: 0;
     margin-left: 40px;
-    top: 4px;
+    top: 10px;
     color: black;
 }
 
@@ -36,7 +38,7 @@ li {
 .user{
     right: 0;
     position: absolute;
-    top: 0;
+    top: 10px;
     margin-right: 40px;
 }
 
@@ -50,27 +52,30 @@ li {
 }
 
 .left{
-    bottom: 20%;
+    bottom: 15%;
     float: left;
     position:absolute;
     margin-left:15%;
-    font-size: larger;
 }
 
 h1{
     padding: 10px;
-    color: #535570;
+    color: #525469;
     font-weight: 780;
+    font-size: 45px;
     
 }
 
 .c1{
     color: #00a2ff;
 }
+
 p{
     color: #818290;
     line-height: 26px;
     margin-left: 13px;
+    margin-top: 11px;
+    font-size: 21px;
     
 }
 
@@ -91,6 +96,6 @@ p{
     
 }
 .img2{
-    width: 400px;
-    height: 400px;   
+    width: 470px;
+    height: 470px;   
 }

@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #f5734c;
+    --secondary-color: #f7b89c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--primary-color);
+    background: linear-gradient(58deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    margin-left: 40px;
+    top: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.user {
+    right: 0;
+    position: absolute;
+    margin-right: 40px;
+}
+
+.b1 {
+    background: #0a0a0a;
+    color: #d6e3ea;
+    border: none;
+    border-radius: 22px;
+    padding: 15px 25px;
+}
+
+main {
+    position: relative;
+    height: calc(100vh - 80px);
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    color: white;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.content .btn {
+    background: #0a0a0a;
+    color: #d6e3ea;
+    border: none;
+    border-radius: 22px;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right {
+    position: relative;
+    width: 700px; /* Adjust as needed */
+    height: 100vh; /* Full height */
+    float: right; /* Align to the right */
+}
+
+/* White background with clip-path */
+.right .white-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    clip-path: polygon(90% 0, 100% 0, 100% 100%,105% 100%, 0 50%);
+}
+
+/* Image with clip-path */
+.right .image {
+    position: absolute;
+    top: 50%;
+    right: 10%; /* Adjust to move the image left or right */
+    transform: translateY(-50%);
+    width: 350px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 20px; /* Optional: round the corners */
+}
